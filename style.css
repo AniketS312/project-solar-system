@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./images/galaxy.gif');
+    background-size: cover;
+}
+
+header {
+text-align: center;
+margin-top: 2rem;
+margin-bottom: 1rem;
+}
+
+header h1 {
+    color: white;
+    display: block;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+}
+
+input,
+select {
+    border: none;
+    /* -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none; */
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 14px;
+    margin-right: .4rem;
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.48);
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    padding: 2rem
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    margin-left: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 40vw;
+    padding: 1rem 0;
+    color: white;
+    letter-spacing: .1rem;
+    font-size: 1.4rem;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.mass-text-one {
+    font-size: 2rem;
+}
+
+.mass-text-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    font-size: 3rem;
+}
+
+/* Switchers */
+.hide {
+    display: none;
+}
+
+
+
